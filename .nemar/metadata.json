@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "enriched",
   "title": "223 By BP",
-  "description": "This dataset comprises laser-evoked pain responses from participants who received fixed-intensity nociceptive stimuli at discrete energy levels (low pain: 3J and 3.5J; high pain: 3.5J and 4J) while providing subjective pain intensity ratings. The study involved 30 laser stimulation trials organized across 3 blocks with concurrent neurophysiological recordings, designed to investigate the neural correlates of pain perception and subjective pain rating behavior.",
-  "methods_description": "Participants received laser stimulation at fixed discrete intensities (low pain: 3J and 3.5J; high pain: 3.5J and 4J) organized in 3 blocks of 10 stimuli each, with high and low pain stimuli evenly distributed. Following each stimulus, participants provided pain intensity ratings on a 0-10 scale (0=no sensation, 4=pain onset, 6=moderate pain, 8=severe pain, 10=unbearable pain). Participants were instructed to focus on the laser stimulation, keep their eyes open, and fix their gaze on the crosshairs displayed on the screen. A 5-second inter-stimulus interval separated each trial, with subsequent trials beginning at random intervals after pain rating completion.",
+  "description": "This dataset comprises laser-evoked pain responses from 30 participants who received fixed-intensity nociceptive stimuli at discrete energy levels (low pain: 3J or 3.5J; high pain: 3.5J or 4J) while providing subjective pain intensity ratings. The study involved 30 stimulation trials organized in 3 blocks with concurrent neurophysiological recordings, designed to investigate the neural correlates of pain perception and subjective pain rating behavior.",
+  "methods_description": "Participants (N=30) received laser stimulation at fixed intensities (low pain: 3J or 3.5J; high pain: 3.5J or 4J) in 3 blocks of 10 stimuli each, with high and low pain stimuli evenly distributed. Following each stimulus, participants provided pain intensity ratings on a 0-10 scale (0=no sensation, 4=pain onset, 6=moderate pain, 8=severe pain, 10=unbearable pain). Participants were instructed to maintain fixation on a crosshair display with eyes open, with a 5-second inter-stimulus interval and random 5-second delays between rating and subsequent trial onset.",
   "license": "CC0",
   "dataset_type": "raw",
   "authors": {
@@ -32,16 +32,13 @@
       "term": "neurophysiology"
     },
     {
-      "term": "EEG"
-    },
-    {
       "term": "laser stimulation"
     },
     {
-      "term": "laser-evoked pain"
+      "term": "EEG"
     },
     {
-      "term": "human"
+      "term": "pain intensity"
     }
   ],
   "related_identifiers": [
