@@ -1,9 +1,9 @@
 {
   "version": "2.0",
-  "dataset_id": "on005280",
-  "source": "openneuro",
-  "source_id": "ds005280",
+  "pipeline_stage": "validated",
   "title": "223 By BP",
+  "license": "CC0",
+  "dataset_type": "raw",
   "authors": {
     "Zhao Xiangyue": {},
     "Zhou Jingyao": {},
@@ -13,21 +13,77 @@
     "Bi Yanzhi": {},
     "Hu Li": {}
   },
-  "license": "CC0",
-  "dataset_type": "raw",
   "related_identifiers": [
     {
       "identifier": "10.18112/openneuro.ds005280.v1.0.0",
       "identifier_type": "DOI",
       "relation_type": "IsIdenticalTo"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/on005280",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataexplorer/detail?dataset_id=on005280",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.18112/openneuro.ds005280",
+      "identifier_type": "DOI",
+      "relation_type": "IsVersionOf"
     }
   ],
-  "pipeline_stage": "seeded",
-  "bids_version": "1.1.1",
-  "recording_modality": [
+  "modalities": [
     "eeg"
   ],
-  "datatypes": [
-    "eeg"
-  ]
+  "resource_type_specific": "EEG Dataset",
+  "sizes": [
+    "0.0 KB (1 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".fdt",
+    ".json",
+    ".m",
+    ".md",
+    ".set",
+    ".tsv",
+    ".vhdr",
+    ".vmrk"
+  ],
+  "description": "This dataset comprises laser-evoked pain responses from participants who received fixed-intensity nociceptive stimuli at varying energy levels (low pain: 3J/3.5J; high pain: 3.5J/4J) while providing subjective pain intensity ratings on a 0-10 scale (0=no sensation, 4=pain onset, 6=moderate pain, 8=severe pain, 10=unbearable pain). The experiment involved 30 laser stimuli delivered across 3 blocks with balanced distribution of pain intensities. This dataset supports investigation of the neural correlates of pain perception and subjective pain intensity assessment.",
+  "methods_description": "Participants received laser stimulation at fixed intensities (low pain: 3J/3.5J; high pain: 3.5J/4J) in 3 blocks of 10 stimuli each, with high and low pain stimuli evenly distributed within each block. Following each stimulus, a 5-second pause preceded subjective pain intensity ratings on a 0-10 scale (0=no sensation, 4=pain onset, 6=moderate pain, 8=severe pain, 10=unbearable pain). Participants were instructed to maintain visual fixation on a crosshair display and keep eyes open throughout stimulation. Subsequent trials began at random intervals of 5 seconds after rating completion.",
+  "keywords": [
+    {
+      "term": "pain perception",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "laser-evoked potentials",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "nociception",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "pain measurement",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "electroencephalography",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "subjective pain rating",
+      "subject_scheme": "MeSH"
+    },
+    {
+      "term": "nociceptive stimulation",
+      "subject_scheme": "MeSH"
+    }
+  ],
+  "source_hash": "64118b266ed12592524568c6df80dc457cfd9ea70c81ad16512229edb146819c"
 }
