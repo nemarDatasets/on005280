@@ -1,3 +1,5 @@
+[![DOI](https://img.shields.io/badge/DOI-10.82901%2Fnemar.on005280-blue)](https://doi.org/10.82901/nemar.on005280)
+
 1.Study introduction:
 In this experiment, participants received fixed-intensity pain stimuli at 3J / 3.5J (low pain) and 3.5J / 4J (high pain). Each participant underwent stimulation in 3 blocks, with each block comprising 10 stimuli, totaling 30 stimuli. High and low pain stimuli were evenly distributed within each block. After each stimulation, participants provided pain ratings individually. Pain ratings were as follows: 0 indicated no sensation at all, 4 indicated the onset of pain, 6 represented moderate pain, 8 indicated severe pain, and 10 denoted unbearable pain.
 2.Participant task information(description of the experiment): 
